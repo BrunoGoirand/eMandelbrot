@@ -1,0 +1,26 @@
+{
+	"name": "mandelbrot",
+	"version": "1.0.0",
+	"description": "Desktop application that produces Mandelbrot images",
+	"main": "main.js",
+	"scripts": {
+	  "start": "electron .",
+	  "watch": "nodemon --exec electron .",
+	  "reset": "git reset --hard"
+	},
+	"repository": "",
+	"keywords": [
+	  "Electron",
+	  "Mandelbrot"
+	],
+	"author": "G3be",
+	"license": "",
+	"devDependencies": {
+	  "electron": "^6.1.12",
+	  "nodemon": "^2.0.0"
+	},
+	"dependencies": {
+	  "electron-window-state": "^5.0.3"
+	}
+ }
+ 
